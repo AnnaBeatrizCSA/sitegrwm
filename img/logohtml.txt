@@ -1,0 +1,22 @@
+programa logo
+HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu site</title>
+    <link href = "Estilos.css" rel= "stylesheet">
+</head>
+<body>
+   <header>
+    <div>
+        <img src="logo.png" title="Meu site" class="logo"/>
+    </div>
+   </header>
+</body>
+</html>
+
+CSS
+.logo {
+    width: 10%;
+}
