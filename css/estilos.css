@@ -61,23 +61,62 @@ nav li{
 .titulo_sobrenos{
     clear: left;
     text-align: center;
+    padding-top: 5%;
+    font-family: 'Cambria';
 }
 .texto_diferente{
     color : rgb(201, 74, 95);
     font-weight: bold; /*negrito*/
-    text-decoration: underline;/*sublinhar o texto*/
+    /*text-decoration: underline;*//*sublinhar o texto*/
     font: italic;
+    padding-top: 2%;
     }
     /*sessão NOSSO ESTABELECIMENTO*/
 .mapaGeral{
      background: linear-gradient(white,#FFCCCC); 
      text-align: center;
+     font: italic;
     
           
+}
+.titulo_estabelecimento{
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Cambria';
 }
 .mapa{
     margin: auto;
     width: 940px;
   
+
+}
+.maquiagens{
+    width: 250px;
+    margin-left: 50%;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 2px rgba(5, 5, 5, 0.2);
+}
+.titulo_produtos{
+    padding: 0%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Cambria';
+  
+    
+}
+.nossos_produtos{
+    width: 100%;
+    background: linear-gradient(#FFCCCC,#ff9595); 
+    height: 450px;
+
+    
+}
+.lista_produtos{
+    margin-left: 30%;
+    margin-top: -300px;
+    font: italic;
+    
+}  
 
 }
